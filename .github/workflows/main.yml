@@ -22,4 +22,4 @@ jobs:
           pip install python-telegram-bot schedule
       - name: Run script
         run: |
-          MazuBot.py
+          mazubot.py
