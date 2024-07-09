@@ -24,4 +24,4 @@ jobs:
           pip install schedule aiogram
       - name: Run script
         run: |
-          mazubot.py
+          python mazubot.py
