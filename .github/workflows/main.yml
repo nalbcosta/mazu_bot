@@ -24,6 +24,6 @@ jobs:
           pip install schedule aiogram
       - name: Run script
         env:
-          TELEGRAM_BOT: ${{ secrets.TELEGRAM_BOT }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: |
           python mazubot.py
