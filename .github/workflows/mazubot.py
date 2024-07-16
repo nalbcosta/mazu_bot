@@ -9,7 +9,7 @@ import os
 from aiogram import Bot, Dispatcher, types
 
 #Mensagens Automáticas
-msg_1 = '🚀- Teste Amazon Prime por 1 MES de graça: https://amzn.to/3XONnME \n📖- Teste Audible Library por 3 MESES de graça: https://amzn.to/3XVozmx \n🎧- Teste Amazon Music Unlimited por 5 MESES de graça: https://amzn.to/4cNtfiw'
+msg_1 = '🚀- Teste Amazon Prime por 1 MES de graça: https://amzn.to/3XONnME \n📖- Teste Audible Library por 3 MESES de graça: https://amzn.to/3XVozmx \n🚀- Teste Kindle Unlimited por 3 MESES de graça: https://amzn.to/3Y3RswQ \n🎧- Teste Amazon Music Unlimited por 5 MESES de graça: https://amzn.to/4cNtfiw'
 
 #Fotos automáticas
 img_1 = 'https://i.pcmag.com/imagery/articles/05qp7E8Z6G2lM79Y6Epl0tl-11.jpg'
