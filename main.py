@@ -2,11 +2,12 @@ import bot_coding as bc
 import asyncio
 
 menu =  '''
-    ----------MENU-----------
-    |1 - Enviar Prime Oferta|
-    |2 - Enviar Oferta      |
-    |0 - Sair               |
-    -------------------------
+    -----------MENU------------
+    |1 - Enviar Prime Oferta  |
+    |2 - Enviar Oferta        |
+    |3 - Enviar Oferta Shopee |
+    |0 - Sair                 |
+    ---------------------------
 '''
 print(menu)
 
@@ -14,8 +15,9 @@ escolha = int(input('Opção → '))
 
 while escolha != 0:
     if escolha == 1:
-        bc.enviar_prime()
+        acao = bc.enviar_prime()
         print("Mensagem de prime ofertas enviado\n")
+        acao
         print(menu)
         escolha = int(input('Opção → '))
     elif escolha == 2:

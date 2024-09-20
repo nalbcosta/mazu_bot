@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup as bs
 from telegram import Bot
 
+
 #Mensagens Automáticas
 msg_1 = '🚀- Teste Amazon Prime por 1 MES de graça: https://amzn.to/3XONnME \n📖- Teste Audible Library por 3 MESES de graça: https://amzn.to/3XVozmx \n🎧- Teste Amazon Music Unlimited por 5 MESES de graça: https://amzn.to/4cNtfiw'
 
